@@ -1,0 +1,15 @@
+name: ED
+main: me.cap1tal.eavesdropper.Eavesdropper
+version: 0.2
+author: Cap1tal
+
+permissions:
+   eavesdropper.use:
+      default: op
+
+commands:
+   listen:
+      permission: eavesdropper.use
+      description: Toggles eavesdropping.
+      usage: |
+         /listen
